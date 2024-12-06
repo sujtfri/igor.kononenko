@@ -1,4 +1,4 @@
-baseURL = 'https://sujtfri.github.io/ime-priimek/' # change member_repository to your repository name
+baseURL = 'https://sujtfri.github.io/igor.kononenko/' # change member_repository to your repository name
 theme = "sujt_theme"
 
 [params]
@@ -22,9 +22,17 @@ rootURL = "https://sujtfri.github.io/"
         url = "/lecturing/" 
         weight = 200
       [[languages.en.menus.main]]
-        name = "Projects"
-        url = "/projects/" 
+        name = "Scientific work"
+        url = "/cv/" 
         weight = 300
+      [[languages.en.menus.main]]
+        name = "Science and spirituality"
+        url = "https://irenaroglic.si/wp-content/uploads/engbio.htm"
+        weight = 400
+      [[languages.en.menus.main]]
+        name = "Personal"
+        url = "https://irenaroglic.si/wp-content/uploads/personal.pdf" 
+        weight = 500
 
   [languages.si]
     title = 'SUJT'
@@ -43,9 +51,17 @@ rootURL = "https://sujtfri.github.io/"
         url = "/si/lecturing/" 
         weight = 200
       [[languages.si.menus.main]]
-        name = "Projekti"
-        url = "/si/projects/" 
+        name = "Znanstveno delo"
+        url = "/si/cv/" 
         weight = 300
+      [[languages.si.menus.main]]
+        name = "Znanost in duhovnost"
+        url = "https://irenaroglic.si/wp-content/uploads/bio.htm" 
+        weight = 400
+      [[languages.si.menus.main]]
+        name = "Osebno"
+        url = "https://irenaroglic.si/wp-content/uploads/osebno.pdf" 
+        weight = 500
 
 [markup.goldmark.renderer] 
   unsafe= true
