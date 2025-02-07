@@ -1,12 +1,8 @@
 baseURL = 'https://sujtfri.github.io/igor.kononenko/' # change member_repository to your repository name
-theme = "sujt_theme"
-
-[params]
-rootURL = "https://sujtfri.github.io/"
-
+theme = ["hugo-cloak-email"]
 [languages]
   [languages.en]
-    title = 'MLLT'
+    title = 'SUJT'
     contentDir = 'content/english'
     languageName = 'English'
     weight = 10
@@ -65,4 +61,3 @@ rootURL = "https://sujtfri.github.io/"
 
 [markup.goldmark.renderer] 
   unsafe= true
-
