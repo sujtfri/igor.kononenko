@@ -1,5 +1,11 @@
 baseURL = "https://sujtfri.github.io/igor.kononenko/" # change member_repository to your repository name
 theme = ["hugo-cloak-email","sujt_theme"]
+relativeURLs = true
+paginate = 3
+
+[params]
+rootURL = "https://sujtfri.github.io/"
+
 [languages]
   [languages.en]
     title = 'SUJT'
