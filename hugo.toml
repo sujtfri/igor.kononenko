@@ -1,5 +1,5 @@
-baseURL = 'https://sujtfri.github.io/igor.kononenko/' # change member_repository to your repository name
-theme = ["hugo-cloak-email"]
+baseURL = "https://sujtfri.github.io/igor.kononenko/" # change member_repository to your repository name
+theme = ["hugo-cloak-email","sujt_theme"]
 [languages]
   [languages.en]
     title = 'SUJT'
